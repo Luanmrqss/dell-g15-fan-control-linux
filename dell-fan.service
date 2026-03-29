@@ -1,0 +1,7 @@
+[Unit]
+Description=Dell G15 Fan Control
+After=multi-user.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/dell-fan-control.sh
